@@ -1,0 +1,38 @@
+# Normalize text to LF in Git and on checkout on every operating system.
+# Explicit eol overrides each contributor's core.autocrlf setting.
+* text=auto eol=lf
+
+# Python source and common workbook text/data files
+*.py text diff=python
+*.pyw text diff=python
+*.md text
+*.txt text
+*.csv text
+*.tsv text
+*.json text
+*.ipynb text
+*.toml text
+*.yaml text
+*.yml text
+*.svg text
+.gitignore text
+.gitattributes text
+
+# Windows command scripts require CRLF on checkout.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Leave binary documents, images, and archives unchanged.
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.pptx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.zip binary
+*.7z binary
+*.gz binary
