@@ -77,3 +77,7 @@ For the early topics, no third-party packages are needed. When we reach the pack
 - [Homework activities](homework/README.md): independent, ungraded practice on matching topics.
 
 Each track has 15 numbered topic folders, including four package introductions and optional extra topics. Read each topic README for directions and success checks, then complete its starter files.
+
+## Tool notes
+
+- [VS Code, EditorConfig, and line endings](docs/editor-settings.md): what the configuration files do, why some settings overlap, and how to fix CRLF warnings.
